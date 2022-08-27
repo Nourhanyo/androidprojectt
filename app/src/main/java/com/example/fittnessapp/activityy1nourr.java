@@ -41,7 +41,7 @@ public class activityy1nourr extends AppCompatActivity {
         getWindow().setStatusBarColor(ContextCompat.getColor(activityy1nourr.this,R.color.black));
         setContentView(R.layout.activityy1nourr);
         database dbs = new database(this);
-        boolean update=db.update("ships" , 250 ," 2.4g","9g","4mg","3g","2.2g","6g","1g");
+//        boolean update=db.update("ships" , 250 ," 2.4g","9g","4mg","3g","2.2g","6g","1g");
 
 
         list = new ArrayList<>();
