@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EA7E5B"
+
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ListView
+        android:id="@+id/listnour"
+        android:layout_width="411dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="20px"
+        android:layout_weight="1"
+        android:cacheColorHint="#351D61"
+        android:scrollbarSize="5dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/textnour"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="Name"
+            android:textColor="#553293"
+            android:textColorHighlight="#0B0909"
+            android:textColorLink="#050505" />
+
+        <Button
+            android:id="@+id/buttonnour"
+            android:layout_width="98dp"
+            android:layout_height="45dp"
+            android:background="#2B066E"
+            android:gravity="bottom"
+            android:text="Done"
+            android:textColorHighlight="#973030" />
+        <!--        <ImageView-->
+        <!--            android:layout_width="wrap_content"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:src=-->
+
+
+    </LinearLayout>
+</LinearLayout>
